@@ -480,6 +480,16 @@
           "assetId": "ajSivLPSEyA3aicjrEqcMM",
           "type": "projectCss",
           "checksum": "cd8d29d1452fc126636969e7708c7196"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "jv2mPivqYl",
+          "checksum": "fa80fed8bdcd8eeab6daa47be8434187"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "jv2mPivqYl",
+          "checksum": "fa80fed8bdcd8eeab6daa47be8434187"
         }
       ],
       "codegenVersion": "0.0.1"

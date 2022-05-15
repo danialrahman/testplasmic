@@ -172,6 +172,19 @@
           "cssFilePath": "plasmic/commerce_landing_page/PlasmicRating.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "jv2mPivqYl",
+          "name": "Shopify",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicShopify.jsx",
+          "importSpec": {
+            "modulePath": "Shopify.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicShopify.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
