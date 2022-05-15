@@ -1,0 +1,557 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "ajSivLPSEyA3aicjrEqcMM",
+      "projectApiToken": "G9EXIEC81zGlsXGXjWH3Oy4w6cHmYCsfksDgzmQGLUfvgDtDWuwUlMVPnSD6HM4bwo8B4X4QrVmQTPw",
+      "projectName": "Commerce landing page",
+      "version": "latest",
+      "cssFilePath": "plasmic/commerce_landing_page/plasmic_commerce_landing_page.module.css",
+      "components": [
+        {
+          "id": "-cYtUwdCKcu4aR",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "xIlhGXFJi7gxml",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "AT6zfNYiNNKwmb",
+          "name": "ProductCard",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicProductCard.jsx",
+          "importSpec": {
+            "modulePath": "ProductCard.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicProductCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5wT6ASM6pVKBV",
+          "name": "Value",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicValue.jsx",
+          "importSpec": {
+            "modulePath": "Value.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicValue.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "I-9R3PAlHbum7",
+          "name": "NavBar",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicNavBar.jsx",
+          "importSpec": {
+            "modulePath": "NavBar.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicNavBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UUdw-zp8TvWQc",
+          "name": "Price",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicPrice.jsx",
+          "importSpec": {
+            "modulePath": "Price.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicPrice.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mdoUGzJrsxpyi",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "wtR1cNL3-xgah",
+          "name": "CopyrightSocialLanguage",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicCopyrightSocialLanguage.jsx",
+          "importSpec": {
+            "modulePath": "CopyrightSocialLanguage.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicCopyrightSocialLanguage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WXVSFJ6F_VRtx",
+          "name": "EmojiValueProps",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicEmojiValueProps.jsx",
+          "importSpec": {
+            "modulePath": "EmojiValueProps.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicEmojiValueProps.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "G_Ak2YrPD5H3-",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "Ib5gwGrUlENTj",
+          "name": "Rating",
+          "type": "managed",
+          "projectId": "ajSivLPSEyA3aicjrEqcMM",
+          "renderModuleFilePath": "plasmic/commerce_landing_page/PlasmicRating.jsx",
+          "importSpec": {
+            "modulePath": "Rating.jsx"
+          },
+          "cssFilePath": "plasmic/commerce_landing_page/PlasmicRating.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "jSj2kqnaq-EgBB",
+          "name": "MenuIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Menu.jsx"
+        },
+        {
+          "id": "ap7YPcyN6vgnqa",
+          "name": "SearchIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Search.jsx"
+        },
+        {
+          "id": "yKrlJoMsAvIghK",
+          "name": "ProfileIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Profile.jsx"
+        },
+        {
+          "id": "8raV9qYmZZHWtL",
+          "name": "CartIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Cart.jsx"
+        },
+        {
+          "id": "mezP8xNLEleDJw",
+          "name": "RightArrowIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__RightArrow.jsx"
+        },
+        {
+          "id": "IZMmcWZmYA0Z9U",
+          "name": "EmptyStarIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__EmptyStar.jsx"
+        },
+        {
+          "id": "JLJMdOm-5xE7vu",
+          "name": "HalfStarIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__HalfStar.jsx"
+        },
+        {
+          "id": "WtjvY5cWB9pa8U",
+          "name": "FullStarIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__FullStar.jsx"
+        },
+        {
+          "id": "G3NvM4PKn1RWwy",
+          "name": "TakeOffIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__TakeOff.jsx"
+        },
+        {
+          "id": "sTJHFqhE8qgOOD",
+          "name": "CashIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Cash.jsx"
+        },
+        {
+          "id": "blMjscxso8QGzy",
+          "name": "SecureIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Secure.jsx"
+        },
+        {
+          "id": "yfHv0WRJ4HQNOV",
+          "name": "PlaneIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Plane.jsx"
+        },
+        {
+          "id": "YxOnwhw3sYoAIm",
+          "name": "DocumentIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Document.jsx"
+        },
+        {
+          "id": "BM8tWScVWyeU0i",
+          "name": "LockIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Lock.jsx"
+        },
+        {
+          "id": "hOmBPXf5F6FG8c",
+          "name": "Icon15Icon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Icon15.jsx"
+        },
+        {
+          "id": "sA8BBUZCKUtNSp",
+          "name": "MedalIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Medal.jsx"
+        },
+        {
+          "id": "qocVD52ob0A8nJ",
+          "name": "PeaceIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Peace.jsx"
+        },
+        {
+          "id": "szRYNuaEkLxA27",
+          "name": "ShoeIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Shoe.jsx"
+        },
+        {
+          "id": "vUz4wp6nW2CNLL",
+          "name": "LeafIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Leaf.jsx"
+        },
+        {
+          "id": "J-dULpUoY0aNd8",
+          "name": "QuestionIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Question.jsx"
+        },
+        {
+          "id": "bX6Fmep2HbrJ5u",
+          "name": "EnterIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Enter.jsx"
+        },
+        {
+          "id": "jqsdHKqHx71qw6",
+          "name": "DeliveryIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Delivery.jsx"
+        },
+        {
+          "id": "9YmLprjPUf46Us",
+          "name": "SpeakerphoneIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Speakerphone.jsx"
+        },
+        {
+          "id": "wYRmJVm99Kk5vv",
+          "name": "HomeIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Home.jsx"
+        },
+        {
+          "id": "EjsSEG5azUQnVr",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__ChevronDown.jsx"
+        },
+        {
+          "id": "ynQq6MxmxAvBeN",
+          "name": "LikeIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Like.jsx"
+        },
+        {
+          "id": "r91o6qeul5xz2Y",
+          "name": "TwitterIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Twitter.jsx"
+        },
+        {
+          "id": "_V3cYxG7zRJMNP",
+          "name": "YoutubeIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Youtube.jsx"
+        },
+        {
+          "id": "hS2m-18ejrFuWW",
+          "name": "PintrestIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Pintrest.jsx"
+        },
+        {
+          "id": "PVUdzvoQZTJ_-g",
+          "name": "Secure2Icon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Secure2.jsx"
+        },
+        {
+          "id": "pBAdJ5lsWsYelZ",
+          "name": "RecycleIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Recycle.jsx"
+        },
+        {
+          "id": "l1_TI8jBG8Tt_h",
+          "name": "Leaf2Icon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Leaf2.jsx"
+        },
+        {
+          "id": "sg1wI-1DAKCq_K",
+          "name": "FilledCircleIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__FilledCircle.jsx"
+        },
+        {
+          "id": "7_y9Xrfy7um436",
+          "name": "EmptyCircleIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__EmptyCircle.jsx"
+        },
+        {
+          "id": "C1wQAHxb-bhimv",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "96lYmFzyEzJ47l",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "NGYNf4GV6dZCZr",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__ChevronDownsvg.jsx"
+        },
+        {
+          "id": "yTW3WHHvL1Sa96",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__ChevronUpsvg.jsx"
+        },
+        {
+          "id": "YNPQWSZis2grCm",
+          "name": "EmailIcon",
+          "moduleFilePath": "plasmic/commerce_landing_page/icons/PlasmicIcon__Email.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "RT79HeLl7HG_IS",
+          "name": "visa",
+          "filePath": "../public/plasmic/commerce_landing_page/images/visa.svg"
+        },
+        {
+          "id": "SaRN4aDMIbnivz",
+          "name": "american express",
+          "filePath": "../public/plasmic/commerce_landing_page/images/americanExpress.svg"
+        },
+        {
+          "id": "0n8BY0AeXykEfJ",
+          "name": "discover",
+          "filePath": "../public/plasmic/commerce_landing_page/images/discover.svg"
+        },
+        {
+          "id": "F6OWJxhBJUSXgs",
+          "name": "mastercard",
+          "filePath": "../public/plasmic/commerce_landing_page/images/mastercard.svg"
+        },
+        {
+          "id": "_RMriHesJvfTrc",
+          "name": "shoe 2",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe2.png"
+        },
+        {
+          "id": "hPCee82vmHRyFI",
+          "name": "shoe 3",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe3.png"
+        },
+        {
+          "id": "wPBapzPER28enm",
+          "name": "shoe 4",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe4.png"
+        },
+        {
+          "id": "HvN0MzVe_oomFN",
+          "name": "shoe 5",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe5.png"
+        },
+        {
+          "id": "ykoQ5cO6-RQJ0X",
+          "name": "shoe 6",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe6.png"
+        },
+        {
+          "id": "G-hf9Z1VoVRrf4",
+          "name": "shoe 7",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe7.png"
+        },
+        {
+          "id": "GxDVk0lvoO-fNR",
+          "name": "shoe 8",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe8.png"
+        },
+        {
+          "id": "FnIEj8VR8jrT90",
+          "name": "shoe 9",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe9.png"
+        },
+        {
+          "id": "FwUKQw1OR13qtS",
+          "name": "shoe 10",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe10.png"
+        },
+        {
+          "id": "vKUL5VCPp19WhG",
+          "name": "shoe 11",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe11.png"
+        },
+        {
+          "id": "NoT3v-luBreuqh",
+          "name": "shoe 12",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe12.png"
+        },
+        {
+          "id": "02FnhfSl3A3XRh",
+          "name": "shoe 13",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe13.png"
+        },
+        {
+          "id": "7giVcM9Mxz7Ih9",
+          "name": "shoe 14",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe14.png"
+        },
+        {
+          "id": "olTVL1tRshDhy4",
+          "name": "shoe 15",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe15.png"
+        },
+        {
+          "id": "IKfii-vGZh9NLO",
+          "name": "shoe 16",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe16.png"
+        },
+        {
+          "id": "Mf3q9LvecC65By",
+          "name": "shoe 17",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe17.png"
+        },
+        {
+          "id": "wx9ywSuFVi6XmR",
+          "name": "shoe 18",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe18.png"
+        },
+        {
+          "id": "tpdddWa0oAyMCt",
+          "name": "shoe 19",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe19.png"
+        },
+        {
+          "id": "O9rzVeyAJVW4zs",
+          "name": "shoe 20",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe20.png"
+        },
+        {
+          "id": "WFvVNkczlxBYDn",
+          "name": "shoe 21",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe21.png"
+        },
+        {
+          "id": "-FY1z7cYDiKszf",
+          "name": "shoe 22",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe22.png"
+        },
+        {
+          "id": "qPVq_67w3qbrpX",
+          "name": "shoe 23",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe23.png"
+        },
+        {
+          "id": "cT9R8ninFV7IFd",
+          "name": "shoe 24",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe24.png"
+        },
+        {
+          "id": "UlBDKVrs9CGxWe",
+          "name": "shoe 25",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe25.png"
+        },
+        {
+          "id": "VzAlsklnyQeLuJ",
+          "name": "shoe 26",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe26.png"
+        },
+        {
+          "id": "7EpIpl1m1Bj9tT",
+          "name": "shoe 27",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe27.png"
+        },
+        {
+          "id": "czFIIEbdETyvEs",
+          "name": "shoe 28",
+          "filePath": "../public/plasmic/commerce_landing_page/images/shoe28.png"
+        },
+        {
+          "id": "RG6xr-zhUXcFPp",
+          "name": "hero",
+          "filePath": "../public/plasmic/commerce_landing_page/images/hero.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Jf6fV4vwSlEHz",
+        "name": "Screen",
+        "projectId": "ajSivLPSEyA3aicjrEqcMM",
+        "contextFilePath": "plasmic/commerce_landing_page/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.178",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.178/dist/plasmic.schema.json"
+}
