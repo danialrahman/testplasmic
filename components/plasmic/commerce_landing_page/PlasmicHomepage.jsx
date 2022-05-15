@@ -149,7 +149,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   showEndIcon={true}
                   size={"large"}
                 >
-                  {"Shop"}
+                  {"Buy Now"}
                 </Button>
               </p.Stack>
             </p.Stack>
