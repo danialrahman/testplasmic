@@ -23,6 +23,8 @@ import ProductCard from "../../ProductCard"; // plasmic-import: AT6zfNYiNNKwmb/c
 import Rating from "../../Rating"; // plasmic-import: Ib5gwGrUlENTj/component
 import EmojiValueProps from "../../EmojiValueProps"; // plasmic-import: WXVSFJ6F_VRtx/component
 import Value from "../../Value"; // plasmic-import: 5wT6ASM6pVKBV/component
+import { CmsQueryRepeater } from "@plasmicpkgs/plasmic-cms"; // plasmic-import: 8N9-WfZSaq/codeComponent
+import { CmsRowField } from "@plasmicpkgs/plasmic-cms"; // plasmic-import: w6HdOz-Pcn/codeComponent
 import Footer from "../../Footer"; // plasmic-import: mdoUGzJrsxpyi/component
 import { useScreenVariants as useScreenVariantsjf6FV4VwSlEHz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: Jf6fV4vwSlEHz/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -149,7 +151,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   showEndIcon={true}
                   size={"large"}
                 >
-                  {"Buy Later"}
+                  {"Buy Tomorrow"}
                 </Button>
               </p.Stack>
             </p.Stack>
@@ -944,6 +946,51 @@ function PlasmicHomepage__RenderFunc(props) {
                     </Button>
                   }
                 />
+
+                <CmsQueryRepeater
+                  data-plasmic-name={"cmsDataLoader"}
+                  data-plasmic-override={overrides.cmsDataLoader}
+                  className={classNames("__wab_instance", sty.cmsDataLoader)}
+                  desc={false}
+                  emptyMessage={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__uvRdL
+                      )}
+                    >
+                      {"No matching published entries found."}
+                    </div>
+                  }
+                  forceEmptyState={false}
+                  forceLoadingState={false}
+                  limit={0}
+                  loadingMessage={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__ny82V
+                      )}
+                    >
+                      {"Loading..."}
+                    </div>
+                  }
+                  noLayout={false}
+                  useDraft={false}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__ev1Wu)}
+                  >
+                    <CmsRowField
+                      className={classNames(
+                        "__wab_instance",
+                        sty.cmsEntryField___4S549
+                      )}
+                    />
+                  </div>
+                </CmsQueryRepeater>
               </p.Stack>
             </div>
           </section>
@@ -1804,6 +1851,13 @@ function PlasmicHomepage__RenderFunc(props) {
             </p.Stack>
           </section>
 
+          <section className={classNames(projectcss.all, sty.section__xh7Zd)}>
+            <svg
+              className={classNames(projectcss.all, sty.svg__dn2F6)}
+              role={"img"}
+            />
+          </section>
+
           <Footer
             data-plasmic-name={"footer"}
             data-plasmic-override={overrides.footer}
@@ -1827,6 +1881,7 @@ const PlasmicDescendants = {
     "columns",
     "container42",
     "container5",
+    "cmsDataLoader",
     "container6",
     "container434",
     "container433",
@@ -1841,7 +1896,8 @@ const PlasmicDescendants = {
   emojiValueProps: ["emojiValueProps", "columns"],
   columns: ["columns"],
   container42: ["container42"],
-  container5: ["container5"],
+  container5: ["container5", "cmsDataLoader"],
+  cmsDataLoader: ["cmsDataLoader"],
   container6: ["container6"],
   container434: ["container434"],
   container433: ["container433"],
@@ -1886,6 +1942,7 @@ export const PlasmicHomepage = Object.assign(
     columns: makeNodeComponent("columns"),
     container42: makeNodeComponent("container42"),
     container5: makeNodeComponent("container5"),
+    cmsDataLoader: makeNodeComponent("cmsDataLoader"),
     container6: makeNodeComponent("container6"),
     container434: makeNodeComponent("container434"),
     container433: makeNodeComponent("container433"),
